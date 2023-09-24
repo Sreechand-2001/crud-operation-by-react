@@ -19,4 +19,4 @@ const App = () => {
 
 export default App;
 
-// git remote add origin https://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@github.com/Sreechand-2001/crud-operation-by-react.git
+// git remote add origin https://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@github.com/Sreechand-2001/crud-operation-by-react.git
