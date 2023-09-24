@@ -1,0 +1,109 @@
+#box {
+  height: 89vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+#box > #form {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #fafafa;
+  position: relative;
+  border-top: 3px solid rgb(0, 179, 255);
+  border-left: 3px solid rgb(0, 179, 255);
+  /* border-top: 3px solid rgb(121, 1, 140);
+  border-left: 3px solid rgb(154, 6, 128); */
+  box-shadow: 5px 5px 5px rgb(0, 179, 255);
+  /* box-shadow: 5px 5px 5px rgb(10, 140, 196); */
+  /* box-shadow: 5px 5px 5px rgb(154, 6, 128); */
+}
+#box > #form > .input {
+  height: 11%;
+  width: 80%;
+  border-radius: 20px;
+  border: 2px solid rgb(2, 196, 245);
+  /* border: 2px solid rgb(154, 6, 128); */
+  padding-left: 45px;
+  font-size: 18px;
+  color: rgb(10, 140, 196);
+  /* color: rgb(154, 6, 128); */
+}
+#box > #form > .input:focus {
+  border: 3px solid rgb(2, 196, 245);
+  /* border: 3px solid rgb(154, 6, 128); */
+  outline: none;
+}
+#box > #form > .input::placeholder {
+  font-size: 16px;
+  color: rgb(10, 140, 196);
+  /* color: rgb(154, 6, 128); */
+}
+#box > #form > #btn {
+  height: 10.2%;
+  width: 30.2%;
+  background: rgb(92, 183, 228);
+  /* background: rgb(121, 1, 140); */
+  transition-duration: 0.5s;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box > #form > #btn:hover {
+  transform: scale(1.15);
+  background-color: rgb(0, 221, 255);
+  /* background-color: rgb(154, 6, 128); */
+  color: rgb(76, 0, 112);
+}
+#box > #form > #btn:hover > .submit_btn {
+  letter-spacing: 3px;
+}
+#box > #form > #btn > .submit_btn {
+  height: 34px;
+  width: 115px;
+  background: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 2px;
+  color: rgb(18, 145, 173);
+  /* color: rgb(154, 6, 128); */
+  transition-duration: 0.5s;
+}
+#box > #form > #btn > .submit_btn:focus {
+  outline: none;
+}
+
+#personIcon,
+#moneyIcon,
+#companyIcon {
+  position: absolute;
+  left: 60px;
+  color: rgb(0, 168, 206);
+}
+#personIcon {
+  top: 58px;
+}
+#moneyIcon {
+  top: 148px;
+}
+#companyIcon {
+  top: 238px;
+}
+
+#editPara{
+  position: absolute;
+  top: 130px;
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: rgb(0,179,255);
+}

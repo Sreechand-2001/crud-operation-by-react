@@ -1,0 +1,16 @@
+{
+  "employee": [
+    {
+      "name": "Sreechand",
+      "salary": "100000",
+      "company": "Google",
+      "id": 1
+    },
+    {
+      "name": "Sreechand",
+      "salary": "100000",
+      "company": "Google",
+      "id": 1
+    }
+  ]
+}
